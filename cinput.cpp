@@ -1,28 +1,21 @@
 #include <iostream>
 #include <conio.h>
 
+using namespace std;
 
-
-
-
-namespace gir{
+int main(){
 	
-		void Yazdir();
-}
-
-void gir::Yazdir(){
-	
-	int a;
-	std::cout<<"bir sayi giriniz:"<<std::endl;
-		std::cin>>a;
-		std::cout<<"Girmis oldugunuz sayi:"<<a <<std::endl;
+	int a=10;
+	if(a>20){
+		cout<<"a 20 den buuyuktur\n";
 	}
-
-
-
-	int main(){
-	gir::Yazdir();
+	 else if(a==10){
+		cout<<"a 10 ye esittir\n";
+	}
+	else
+	{
+		cout<<"a 20 den kucuuktur\n";
+	}
 	getch();
-	return 0;
-	
-	}
+return 0;	
+}
